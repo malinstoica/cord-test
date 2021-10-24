@@ -1,0 +1,84 @@
+{
+    "validRoleRequestWithAdditionalParams": {
+        "body": {
+            "test": "test param"
+        },
+        "query": {
+            "location": [
+                "test location 1",
+                "test location 2"
+            ],
+            "sort_by": "name"
+        }
+    },
+    "invalidProfileRequestLocation": {
+        "query": {
+            "name": "test"
+        }
+    },
+    "invalidProfileRequestType": {
+        "body": {
+            "name": 1,
+            "job_title": "test"
+        }
+    },
+    "validProfileRequest": {
+        "body": {
+            "name": "test",
+            "photo_url": "test url"
+        }
+    },
+    "invalidMemberRequestMissingBody": {
+        "body": {}
+    },
+    "invalidMemberRequestMissingRequired": {
+        "body": {
+            "name": "test"
+        }
+    },
+    "validMemberRequest": {
+        "body": {
+            "account_id": 1021223
+        }
+    },
+    "invalidSearchRequestWrongNestedType": {
+        "query": {
+            "location": [
+                "test location 1",
+                "test location 2",
+                3
+            ]
+        }
+    },
+    "validSearchRequest": {
+        "query": {
+            "sort_by": "quality",
+            "page": 2,
+            "keyword": [
+                "search term 1",
+                "search term 2"
+            ],
+            "location": [
+                "test location 1",
+                "test location 2",
+                3
+            ],
+            "include_relocate": "false",
+            "job_title": "Back End Software Enginner",
+            "job_type": "Permanent",
+            "skill": "Mid",
+            "years_experience": 2,
+            "min_salary": 50000,
+            "max_salary": 75000,
+            "remote": "true",
+            "visa": "false",
+            "exclude_dealt_with": "false",
+            "last_active_value": 1635080748862,
+            "last_active_type": "day",
+            "exclude_skipped": "false",
+            "special_page": "true",
+            "ui": "aO0yjU0t2x",
+            "default": "false"
+        }
+    }
+}
