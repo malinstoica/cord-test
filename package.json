@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "An opinionated microservice framework for quick bootstrapping of code",
   "scripts": {
-    "start": "nodemon -r esm lib/app.js"
+    "start": "nodemon -r esm lib/app.js",
+    "test": "jest"
   },
   "author": "cohire/lacunadream",
   "dependencies": {
@@ -17,11 +18,12 @@
     "express-winston": "^2.4.0",
     "jest": "^27.3.1",
     "js-yaml": "^3.8.3",
-    "supertest": "^6.1.6",
     "swagger-jsdoc": "^1.9.7",
     "winston": "^2.4.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
     "nodemon": "^1.11.0"
   }
 }
