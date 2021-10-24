@@ -60,14 +60,13 @@
             ],
             "location": [
                 "test location 1",
-                "test location 2",
-                3
+                "test location 2"
             ],
             "include_relocate": "false",
             "job_title": "Back End Software Enginner",
             "job_type": "Permanent",
             "skill": "Mid",
-            "years_experience": 2,
+            "years_experience": "2 years",
             "min_salary": 50000,
             "max_salary": 75000,
             "remote": "true",
